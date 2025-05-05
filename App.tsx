@@ -1,14 +1,13 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import {Image, Text, TouchableOpacity, View} from 'react-native';
+import {Image, TouchableOpacity, View} from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import {Provider} from "react-redux";
 import {PersistGate} from "redux-persist/integration/react";
 import {persistor, store} from "./src/redux/store";
 import MainTabNavigator from "./src/navigation/MainTabNavigator";
 // import Splash from "./src/screens/Splash";
-import WelcomeScreen from "./src/navigation/WelcomeScreen";
 import PrestigiousAboutScreen from "./src/screens/PrestigiousAboutScreen";
 import SecretGameScreen from "./src/screens/SecretGameScreen";
 import GameProccesScreen from "./src/screens/GameProccesScreen";

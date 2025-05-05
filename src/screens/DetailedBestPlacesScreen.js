@@ -1,6 +1,5 @@
 import {Image, ScrollView, Text, TouchableOpacity, Vibration, View} from 'react-native';
 import React, { useState, useEffect } from 'react';
-import ArowRightSvg from '../assets/svg/ArowRightSvg';
 
 const DetailedBestPlacesScreen = ({ navigation, route }) => {
     const {place} = route.params;

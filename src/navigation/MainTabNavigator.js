@@ -9,7 +9,6 @@ import GrayCoppy from '../assets/svg/GrayCoppy';
 import GrayFindSome from '../assets/svg/GrayFindSome';
 import SettingsScreen from '../screens/SettingsScreen';
 import GraySettings from '../assets/svg/GraySettings';
-import EmptyFFFStar from '../assets/svg/EmptyFFFStar';
 import LightSvg from '../assets/svg/LightSvg';
 import {useNavigation} from '@react-navigation/native';
 import GrayFind from '../assets/svg/GrayFind';
