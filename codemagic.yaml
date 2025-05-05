@@ -1,6 +1,6 @@
 workflows:
   sample-workflow:
-    name: Barcelona Prestige
+    name: barcelona
     max_build_duration: 120
     instance_type: mac_mini_m1
     integrations:
@@ -50,4 +50,4 @@ workflows:
       app_store_connect:
         auth: integration
         submit_to_app_store: true
-        copyright: barcelona 2025
+        copyright: My Bars 2025
