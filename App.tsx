@@ -43,7 +43,7 @@ export default function App() {
                         headerTitle: () => (
                             <View style={{flexDirection: 'row', alignItems: 'center', alignSelf: 'flex-end', width: '100%'}}>
                                 <Image
-                                    source={require('../barcelona/src/assets/img/Vector.png')}
+                                    source={require('./src/assets/img/Vector.png')}
                                     style={{ width: 220, height: 100, resizeMode: 'contain' }}
                                 />
                             </View>
