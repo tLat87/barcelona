@@ -38,7 +38,22 @@ const MainTabNavigator = () => {
                 ),
                 headerShadowVisible: false,
                 tabBarStyle: {
-                    backgroundColor: '#000000',
+                    position: 'absolute',
+                    bottom: 20,
+                    left: 20,
+                    right: 20,
+                    backgroundColor: '#616161',
+                    borderRadius: 20,
+                    paddingTop: 14,
+                    borderWidth: 1,
+                    borderColor: '#333', // или другой цвет
+                    elevation: 10, // Android тень
+                    shadowColor: '#000',
+                    shadowOffset: { width: 0, height: 10 },
+                    shadowOpacity: 0.3,
+                    shadowRadius: 5,
+                    height: 70,
+                    // paddingBottom: 10,
                 },
                 tabBarIcon: ({ focused }) => {
                     let IconComponent;
